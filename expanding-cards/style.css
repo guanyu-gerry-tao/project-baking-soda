@@ -1,0 +1,66 @@
+.container {
+    position: relative;
+    width: 80vw;
+    height: 80vh;
+    left: 10vw;
+    top: 10vh;
+    min-height: 500px;
+    min-width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.container div {
+    position: relative;
+    height: 95%;
+    width: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    filter: grayscale(90%);
+    transition: width 0.5s ease-in-out, filter 0.5s;
+}
+
+.container .expended_card {
+    width: 1000px;
+    filter: grayscale(0%);
+}
+
+.container div p {
+    opacity: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    color: white;
+    margin: 20px;
+    bottom: 8px;
+    position: absolute;
+    transition: opacity 0.2s 0.1s ease-in-out;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+}
+
+.container div.expended_card p {
+    opacity: 1;
+}
+
+.container #earth {
+    background-image: url("src/the\ earth.jpg");
+}
+
+.container #losangeles {
+    background-image: url("src/Los\ Angeles.jpg");
+}
+
+.container #bayarea {
+    background-image: url("src/Bay\ Area.jpg");
+}
+
+.container #newyork {
+    background-image: url("src/New\ York.jpg");
+}
+
+.container #boston {
+    background-image: url("src/Boston.jpg");
+}

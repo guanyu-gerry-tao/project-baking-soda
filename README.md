@@ -7,15 +7,15 @@ Through the projects, Gerry practice vanilla HTML CSS and JavaScript, preparing 
 
 
 ### 1. Counter Counting Down
-basic JS / rotation / Arrow Function /  / addEventListener
+basic JS, rotation, Arrow Function, nextElementSibling, addEventListener
 
 [project directory](counter) / [original demo](https://50projects50days.com/projects/animated-countdown/)
 
 ---
 ### 2. Expanding Cards
-WIP
+flex, transition, firstElementChild, addEventListener
 
-[original demo](https://50projects50days.com/projects/expanding-cards/)
+[project directory](expanding-cards) / [original demo](https://50projects50days.com/projects/expanding-cards/)
 
 ---
 ### 3. Progress Steps
