@@ -1,0 +1,65 @@
+.controller * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.counter {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.nums {
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.nums span {
+    font-size: 72px;
+    position: absolute;
+    top: 0px;
+    transform-origin: 50% 130%; 
+    transform: translate(-50%) rotate(120deg);
+    text-align: center;
+}
+
+.nums span.num_in {
+    animation: goIn 0.8s ease-in-out;
+}
+
+.nums span.num_out {
+    animation: goOut 0.2s ease-in;
+}
+
+@keyframes goIn {
+  0% {
+    transform: translate(-50%) rotate(120deg);
+  }
+
+  20% {
+    transform: translate(-50%) rotate(-20deg);
+  }
+
+  50% {
+    transform: translate(-50%) rotate(10deg);
+  }
+
+  80% {
+    transform: translate(-50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%) rotate(0deg);
+  }
+}
+
+@keyframes goOut {
+  0% {
+    transform: translate(-50%) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(-50%) rotate(-120deg);
+  }
+}
