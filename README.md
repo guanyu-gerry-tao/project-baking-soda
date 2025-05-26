@@ -30,16 +30,16 @@ transition, SVG
 [project directory](hidden-search-widget) / [original demo](https://50projects50days.com/projects/hidden-search-widget/)
 
 ---
-### 5. Blurry Loading
-WIP
+### ~~5. Blurry Loading~~
+~~SKIP~~
 
 [original demo](https://50projects50days.com/projects/blurry-loading/)
 
 ---
 ### 6. Scroll Animation
-WIP
+requestAnimationFrame(), getBoundingClientRect(), window.innerHeight
 
-[original demo](https://50projects50days.com/projects/scroll-animation/)
+[project directory](scroll-in-animation) / [original demo](https://50projects50days.com/projects/scroll-animation/)
 
 ---
 ### 7. Form Wave
