@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Progress Steps</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="progress_dots">
+                <div class="progress first" id="0">
+                    <div class="dot dot_flagged">1</div>
+                </div>
+                <div class="progress" id="1">
+                    <div class="dash">
+                        <div class="line_background">
+                            <div class="line"></div>
+                        </div>
+                    </div>
+                    <div class="dot">2</div>
+                </div>
+
+                <div class="progress" id="2">
+                    <div class="dash">
+                        <div class="line_background">
+                            <div class="line"></div>
+                        </div>
+                    </div>
+                    <div class="dot">3</div>
+                </div>
+
+            </div>
+            <div class="controllers">
+                <input type="button" value="reset" id="reset_button">
+                <div style="width: 50px;"></div>
+                <input type="button" value="previous" id="previous">
+                <input type="button" value="next" id="next">
+                <div style="width: 50px;"></div>
+                <p>click to increase progress numbers</p>
+                <div class="progress_num_controller">
+                    <div id="progress_num_controller_reduce"><<</div>
+                    <div id="items_num">3</div>
+                    <div id="progress_num_controller_increase">>></div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js" defer></script>
+    </body>
+</html>

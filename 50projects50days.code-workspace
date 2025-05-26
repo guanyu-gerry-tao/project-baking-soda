@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../50projects50days"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "project-baking-soda"
+	}
+}
