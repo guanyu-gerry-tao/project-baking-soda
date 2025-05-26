@@ -49,9 +49,9 @@ wave style text, .map(), split(), join(), form, required (form), password patter
 
 ---
 ### 8. Incrementing Counter
-WIP
+setTimeout(), Recursion, incrementing number animation
 
-[original demo](https://50projects50days.com/projects/incrementing-counter/)
+[project directory](incrementing-counter) / [original demo](https://50projects50days.com/projects/incrementing-counter/)
 
 ---
 ### 9. Button Ripple Effect
