@@ -43,9 +43,9 @@ requestAnimationFrame(), getBoundingClientRect(), window.innerHeight
 
 ---
 ### 7. Form Wave
-WIP
+wave style text, .map(), split(), join(), form, required (form), password pattern
 
-[original demo](https://50projects50days.com/projects/form-wave/)
+[project directory](form-wave) / [original demo](https://50projects50days.com/projects/form-wave/)
 
 ---
 ### 8. Incrementing Counter

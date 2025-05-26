@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Form Wave</title>
+    </head>
+    <body>
+        <div class="container">
+            <form class="inner_box">
+                <div id="login_title">
+                    <h1>Please Login</h1>
+                </div>
+                <div class="forms">
+                    <div id="eml_form">
+                        <span>Email</span>
+                        <input type="email" required>
+                        <div class="underscore"></div>
+                    </div>
+                    <div id="pwd_input">
+                        <span>Password</span>
+                        <input type="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*\W).{8,}" title="Password must be at least 8 characters and include uppercase, lowercase, number, and symbol." id="password" name="password">
+                        <div class="underscore"></div>
+                    </div>
+                </div>
+                <div style="height: 50px;"></div>
+                <input type="submit" value="Login" id="login_btn">
+                <div id="reg_box"><span id="reg_text">Don't have an account?</span><span id="reg_btn">Register</span></div>
+        
+                </div>
+            </form>
+
+        <script src="script.js" defer></script>
+    </body>
+</html>

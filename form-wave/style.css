@@ -1,0 +1,100 @@
+body {
+    background-color: darkslategrey;
+}
+
+.container {
+    width: 400px;
+    height: 500px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(97, 143, 143);
+}
+
+.inner_box {
+    width: 100%;
+    height: 100%;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#login_title {
+    height: 80px;
+    align-items: center;
+    justify-items: center;
+}
+
+.forms div {
+    height: 100px;
+}
+
+.forms div input {
+    top: 50%;
+    width: 90%;
+    height: 50px;
+    position: relative;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    font-size: large;
+}
+
+.forms div input:focus {
+    outline: none;
+}
+
+.forms div span span {
+    position: relative;
+    top: 60px;
+    left: 5px;
+    color: black;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.forms div span.wave span {
+    top: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.forms div .underscore {
+    top: 15px;
+    width: 100%;
+    height: 2px;
+    position: relative;
+    background-color: black;
+}
+
+#login_btn {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#login_btn:hover {
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+#reg_box {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#reg_box span {
+    margin: 5px;
+    color: black;
+    font-size: 16px;
+}
