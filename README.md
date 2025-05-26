@@ -25,9 +25,9 @@ flex, transition, deep HTML structure, add/remove elements
 
 ---
 ### 4. Hidden Search Widget
-WIP
+transition, SVG
 
-[original demo](https://50projects50days.com/projects/hidden-search-widget/)
+[project directory](hidden-search-widget) / [original demo](https://50projects50days.com/projects/hidden-search-widget/)
 
 ---
 ### 5. Blurry Loading
