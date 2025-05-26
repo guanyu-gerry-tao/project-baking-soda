@@ -7,7 +7,7 @@ Through the projects, Gerry practice vanilla HTML CSS and JavaScript, preparing 
 
 
 ### 1. Counter Counting Down
-basic JS, rotation, Arrow Function, nextElementSibling, addEventListener
+*basic JS*, rotation, *Arrow Function*, nextElementSibling, addEventListener
 
 [project directory](counter) / [original demo](https://50projects50days.com/projects/animated-countdown/)
 
@@ -19,13 +19,13 @@ flex, transition, firstElementChild, addEventListener
 
 ---
 ### 3. Progress Steps
-flex, transition, deep HTML structure, add/remove elements
+flex, transition, *deep HTML structure*, *add/remove elements*
 
 [project directory](progress-steps) / [original demo](https://50projects50days.com/projects/progress-steps/)
 
 ---
 ### 4. Hidden Search Widget
-transition, SVG
+transition, *SVG*
 
 [project directory](hidden-search-widget) / [original demo](https://50projects50days.com/projects/hidden-search-widget/)
 
@@ -43,21 +43,21 @@ requestAnimationFrame(), getBoundingClientRect(), window.innerHeight
 
 ---
 ### 7. Form Wave
-wave style text, .map(), split(), join(), form, required (form), password pattern
+*wave style text*, .map(), split(), join(), form, required (form), password pattern
 
 [project directory](form-wave) / [original demo](https://50projects50days.com/projects/form-wave/)
 
 ---
 ### 8. Incrementing Counter
-setTimeout(), Recursion, incrementing number animation
+setTimeout(), Recursion, *incrementing number animation*
 
 [project directory](incrementing-counter) / [original demo](https://50projects50days.com/projects/incrementing-counter/)
 
 ---
 ### 9. Button Ripple Effect
-WIP
+*positioning*, clientX/Y, getBoundingClientRect(), animation
 
-[original demo](https://50projects50days.com/projects/button-ripple-effect/)
+[project directory](button-ripple-effect) / [original demo](https://50projects50days.com/projects/button-ripple-effect/)
 
 ---
 ### 10. Drag-n-Drop
