@@ -19,9 +19,9 @@ flex, transition, firstElementChild, addEventListener
 
 ---
 ### 3. Progress Steps
-WIP
+flex, transition, deep HTML structure, add/remove elements
 
-[original demo](https://50projects50days.com/projects/progress-steps/)
+[project directory](progress-steps) / [original demo](https://50projects50days.com/projects/progress-steps/)
 
 ---
 ### 4. Hidden Search Widget
