@@ -61,9 +61,9 @@ setTimeout(), Recursion, *incrementing number animation*
 
 ---
 ### 10. Drag-n-Drop
-WIP
+*Drag events*, dragOver, dragEnter, dragLeave, dragDrop, e.preventDefault()
 
-[original demo](https://50projects50days.com/projects/drag-n-drop/)
+[project directory](dragndrop) / [original demo](https://50projects50days.com/projects/drag-n-drop/)
 
 ---
 ### 11. Content Placeholder
